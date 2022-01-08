@@ -1,3 +1,4 @@
+const mySecret = process.env['PRIVATE_KEY']
 import { useEffect, useMemo, useState } from "react";
 
 // import thirdweb
