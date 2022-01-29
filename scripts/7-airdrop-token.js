@@ -3,19 +3,19 @@ import sdk from "./1-initialize-sdk.js";
 
 // This is the address to our ERC-1155 membership NFT contract.
 const bundleDropModule = sdk.getBundleDropModule(
-  "INSERT_DROP_MODULE_ADDRESS", // don't forget!
+  "0x0056a69983F0a513C92A59A67f7c233f1c2c1A3C", // don't forget!
 );
 
 // This is the address to our ERC-20 token contract.
 const tokenModule = sdk.getTokenModule(
-  "INSERT_TOKEN_MODULE_ADDRESS",
+  "0x978e7e482B0908f33EEF781CAa3DEE2Ac0b0dedA",
 );
 
 (async () => {
   try {
     // Grab all the addresses of people who own our membership NFT, which has 
     // a tokenId of 0.
-    const walletAddresses = await bundleDropModule.getAllClaimerAddresses("0");
+    const walletAddresses = await bundleDropModule.getAllClaimerAddresses("1");
   
     if (walletAddresses.length === 0) {
       console.log(

@@ -1,4 +1,6 @@
+// we'll be using the Thirdweb software development kit
 import { ThirdwebSDK } from "@3rdweb/sdk";
+// 
 import ethers from "ethers";
 
 //Importing and configuring our .env file that we use to securely store our environment variables

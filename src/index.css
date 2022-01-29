@@ -93,7 +93,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: #197070;
 }
 
 .member-page form .card > div {
@@ -107,7 +107,7 @@ h1 {
 }
 
 .card {
-  background-color: #fff;
+  background-color: #f09e9e;
   padding: 1rem;
   border-radius: 1rem;
   color: #000;
@@ -116,7 +116,7 @@ h1 {
 
 button {
   cursor: pointer;
-  background-color: #000;
+  background-color: rgb(0, 14, 90);
   color: #fff;
   border: none;
   font-weight: bold;
