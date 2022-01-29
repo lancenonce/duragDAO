@@ -7,3 +7,7 @@ Are you a waver? Do you invest time and money into your daily routine? The Durag
 Contact @lancendavis on Twitter
 
 This is just a DAO for lndavis6 to get practice :)
+
+link: https://duragdao.lndavis6.repl.co/
+
+<img width="1508" alt="Screen Shot 2022-01-29 at 3 42 45 PM" src="https://user-images.githubusercontent.com/40670744/151676928-31887d32-0be8-4b78-b1f7-c0682a9872a9.png">
